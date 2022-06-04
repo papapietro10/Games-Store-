@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.nav{
+    padding: 40px;
+}
+.carrito-compras{
+    color: #fff;
+    position: relative;
+    left: 20em;
+}
+.nav-link{
+    color: #ffff;
+    font-size: 1em;
+}
