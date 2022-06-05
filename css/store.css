@@ -7,11 +7,11 @@ background-color: black
 }
 @font-face {
     font-family: graff ;
-    src: url(/css/Positive\ System.otf);
+    src: url(Positive\ System.otf);
 }
 @font-face{
     font-family: game;
-    src: url(/css/PixelSplitter-Bold.ttf);
+    src: url(PixelSplitter-Bold.ttf);
 }
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 .nav{
