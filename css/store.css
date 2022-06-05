@@ -51,25 +51,6 @@ top: 15%;
     animation: color-change-5x 8s linear infinite alternate both;
 height: 25em;
 }
-@-webkit-keyframes color-change-5x{
-0% {
-background: #8400ff;
-}
-25% {
-background: #000b4a;
-}
-50% {
-background: #00b073;
-}
-75% {
-background: #00b3ff;
-}
-100% {
-background: #0015fe;
-}
-}
-
-  
 
 .fondo h1{
 font-size: 9em;
