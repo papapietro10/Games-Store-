@@ -1,18 +1,147 @@
 *{
-    padding: 0;
-    margin: 0;
-    background-color: black;
+padding: 0;
+margin: 0;
 }
+body{
 
-.nav{
-    padding: 40px;
+background-color: black
 }
-.carrito-compras{
-    color: #fff;
-    position: relative;
-    left: 20em;
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+.nav{
+padding: 40px;
+background-color: black;
+box-shadow: 0px 10px 10px black;
+
+}
+.nav img{
+width: 10%;
+position: relative;
+right: 30%;
+
+}
+.d-flex button{
+color: #fff;
+position: relative;
+left: 20em;
+top: 3em;
+width: 100%;
+height: 4em;
+}
+.carrito{
+position: relative;
+top: 10%;
 }
 .nav-link{
-    color: #ffff;
-    font-size: 1em;
+color: #ffff;
+font-size: 2em;
+position: relative;
+top: 30%
+}
+.fondo{
+background-image: url(../image/fondo.jpg);
+background-size: 100% 100%;
+height: 60em;
+
+}
+
+.fondo h1{
+font-size: 10em;
+color: #fff;
+margin-left: 10%;
+margin-top: 10%;
+font-family: 'Joan', serif;
+}
+.fondo p{
+margin-left: 10%;
+font-size: 10em;
+color: #fff;
+font-family: 'Joan', serif;
+}
+
+
+
+/*CARRUCEL Y  CARDS*/
+.black{
+background-color: rgb(0, 0, 0);
+
+}
+/*CARRUCEL */
+.carousel{
+margin-top: 27%;
+width: 60%;
+margin-left: 20%;
+box-shadow: 0px 0px 20px rgb(0, 85, 255);
+}
+.carousel-inner img{
+height: 40em;
+}
+.carousel-control-next-icon{
+box-shadow: 0px 0px 20px rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);
+}
+.carousel-control-prev-icon{
+box-shadow: 0px 0px 20px rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);
+}
+.videos-carousel{
+height: 40em;
+width: 100%;
+}
+.videos-carousel h2{
+color: #fff;
+font-size: 10em;
+font-family: 'Joan', serif;
+text-align: center;
+margin-top: 5%;
+}
+iframe{
+margin-left: 1em;
+margin-top: 6%;
+position: relative;
+left: 4%;
+box-shadow: 0px 0px 10px rgb(0, 85, 255);
+}
+
+
+.deportes{
+height: 10em;
+display:flex;
+justify-content: center;
+align-items: flex-end;
+}
+.deportes h2{
+color: #fff;
+font-size: 5em;
+font-family: 'Joan', serif;
+}
+/*CARDS 1 */
+.text-center h5{
+height: 0em;
+margin-bottom: 10%;
+}
+.btn{
+background-color: rgb(0, 119, 255) ;
+color: rgb(255, 255, 255);
+box-shadow: 0px 0px 5px black;
+position: relative;
+top: 0.8em;
+}
+.card{
+background-color: rgb(0, 26, 255);
+box-shadow: 0px 0px 20px rgb(0, 85, 255);
+}
+.fw-bolder{
+padding: 2%;
+}
+.card-body{
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+
+/*PS5*/
+.register-ps5{
+height: 40em;
+width: 100%;
+display: flex;
+justify-content: center;
 }
