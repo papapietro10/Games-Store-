@@ -1,0 +1,29 @@
+.nav-main{
+background-color: black;
+display: flex;
+justify-content: space-evenly; 
+align-items:center;
+-webkit-animation: color-change-5x 8s linear infinite alternate both;
+animation: color-change-5x 8s linear infinite alternate both;
+}
+.nav-main >a{
+color: #fff;
+font-size: 2em;
+text-decoration: none;
+font-family: game;
+text-shadow: 0px 0px 5px #000000;
+text-decoration: none;
+}
+nav > a:hover{
+text-decoration: underline;
+}
+.nav-main img{
+width: 7%;
+height: auto;
+}
+.btn img{
+width: 33%;
+}
+.nav-main button{
+margin-bottom: 2%;
+}

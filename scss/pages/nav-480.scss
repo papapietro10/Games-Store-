@@ -1,0 +1,18 @@
+/*NAV RESPONSIVE*/
+@media (max-width: 480px){
+.nav-main{
+display:flex;
+flex-direction: column;
+height: 19em;
+overflow: hidden;
+}
+.nav-main img{
+width: 20%;
+}
+.nav-main a{
+font-size: 1.5em;
+}
+.btn img{
+width: 33%;
+}
+}

@@ -26,4 +26,4 @@ for(let i=0; i<=50; i++){
     console.log(`${prueba2[6]}`);
     console.log(`${prueba2[7]}`);
     console.log(`${prueba2[8]}`);
-}
+} 

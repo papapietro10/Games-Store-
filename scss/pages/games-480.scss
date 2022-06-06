@@ -1,0 +1,53 @@
+@media (max-width: 480px){
+.fondo{
+height:20em;
+overflow: hidden;
+}
+.fondo h1{
+font-size: 4em;
+margin-top: 5%;
+
+}
+.fondo p{
+font-size: 4em;
+}
+.carousel-inner img{
+height: 10em;
+width: 100%;
+overflow: hidden;
+}
+.videos-carousel h2{
+overflow: hidden;
+font-size: 3em;
+}
+iframe{
+display:flex;
+overflow: hidden;
+width: 50%;
+height: 10em;
+margin-left: 24%;
+}
+.deportes{
+height: 3em;
+width: 45%;
+border-radius: 5%;
+margin-top: 20%;
+margin-left: 28%;
+}
+.deportes h2{
+font-size: 2em;
+position: relative;
+top: 14%;
+}
+.py-2{
+height: 55em;
+}
+.combo1{
+height: 12.5em;
+}
+.register-ps5{
+overflow: hidden;
+height: 10em;
+margin-top: 20%;
+}
+}
