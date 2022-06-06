@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="image/games.png" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -15,28 +13,18 @@
     <link rel="stylesheet" href="css/store.css">
   </head>
   <header>
-    <ul class="nav justify-content-center">
-      <img src="image/games.png" alt="" srcset="">
-      <li>
-        <a class="nav-link " onclick="agregarAlcarrito()" aria-current="page" href="#">Inicio</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#">¿Quines somos?</a>
-      </li>
-      <li>
-        <a class="nav-link" href="pages/prueba.html">Contacto</a>
-      </li>
-      <form class="d-flex">
-        <button class="btn btn-outline-dark" type="submit">
-          <span class="material-symbols-outlined carrito">
-            shopping_cart
-            </span>
-            <i class="bi-cart-fill me-1"></i>
-            
-          <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-        </button>
-      </form>
-    </ul>
+    <nav class="nav-main"> 
+                    
+      <img src="image/games.png" alt="logo" class="header-logo">
+      <a href="index.html">Game</a>
+      <a href="pages/quienes-somos.html">PS5</a>
+      <a href="pages/asesoramiento.html">Consolas</a>
+      <button class="btn btn-outline-dark" type="submit">
+        <img src="/image/shopping_cart_FILL0_wght400_GRAD0_opsz48.png" class="carrito-png" alt="">
+         
+        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+      </button>
+  </nav>
   </header>
   
   <body>
@@ -161,68 +149,6 @@
                 </div>
               </div>
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="card h-10">
-              <img class="card-img-top" src="image/games.png" alt="..." />
-              <div class="card-body p-4">
-                  <div class="text-center">
-                    <h5 class="fw-bolder">Returnal</h5> $40.00
-                  </div>
-              </div>
-              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-              </div>
-            </div>
-          </div>  
-          <div class="col mb-5">
-            <div class="card h-10">                     
-              <img class="card-img-top " src="image/PS4-Uncharted-4-A-Thiefs-End-Cover2.webp" alt="..." />                
-              <div class="card-body p-4">
-                <div class="text-center">
-                  <h5 class="fw-bolder">Uncharted 4</h5>$12.000
-                </div>
-              </div>
-              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="card h-10">
-              <img class="card-img-top" src="image/PS5_GoTDC_R--2-.webp" alt="..." />
-              <div class="card-body p-4">
-                  <div class="text-center">
-                    <h5 class="fw-bolder">Fifa 22 - Ps5m</h5> $40.00
-                  </div>
-              </div>
-              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-              </div>
-            </div>
-          </div>  
-        </div>
-      </div>
-    </section>
-    <div class="deportes">
-      <h2>Accion</h2>
-    </div>
-    <section class="py-2">
-      <div class="container px-4 px-lg-5 mt-5">
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-  
-          <div class="col mb-5">
-            <div class="card h-10">                     
-              <img class="card-img-top" src="image/PS4-GTA-V-PACKSHOT.webp" alt="..." />                
-              <div class="card-body p-4">
-                <div class="text-center">
-                  <h5 class="fw-bolder">GTA V</h5>$10.000
-                </div>
-              </div>
-              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                   <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
               </div>
             </div>
@@ -269,6 +195,7 @@
         </div>
       </div>
     </section>
+    
     <div class="deportes">
       <h2>Aventura</h2>
     </div>
@@ -331,10 +258,72 @@
         </div>
       </div>
     </section>
+    <div class="deportes">
+      <h2>Combo</h2>
+    </div>
+    <section class="py-2">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+  
+          <div class="col mb-5">
+            <div class="card h-10">                     
+              <img class="card-img-top" src="image/PS4-GTA-V-PACKSHOT.webp" alt="..." />                
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <h5 class="fw-bolder">GTA V</h5>$10.000
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-10">
+              <img class="card-img-top returnal" src="image/consola.jpeg" alt="..." />
+              <div class="card-body p-4">
+                  <div class="text-center">
+                    <h5 class="fw-bolder">Returnal</h5> $40.00
+                  </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+              </div>
+            </div>
+          </div>  
+          <div class="col mb-5">
+            <div class="card h-10">                     
+              <img class="card-img-top " src="image/PS4-Uncharted-4-A-Thiefs-End-Cover2.webp" alt="..." />                
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Uncharted 4</h5>$12.000
+                </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-10">
+              <img class="card-img-top" src="image/PS5_GoTDC_R--2-.webp" alt="..." />
+              <div class="card-body p-4">
+                  <div class="text-center">
+                    <h5 class="fw-bolder">Fifa 22 - Ps5m</h5> $40.00
+                  </div>
+              </div>
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
  <section class="nuestros-gamers">
   <div class="register-ps5">
-    <a href="https://www.playstation.com/en-us/ps5/register-to-buy/?smcid=psd-banner:en-us:ps5-registration-hero:pdc:shop">
-    <img src="image/ps5-registration-banner-lp-desktop.webp" alt=""  srcset="">
+    <a href="https://www.playstation.com/es-ar/ps4/">
+    <img src="image/ps5-registration-banner-lp-desktop.png" alt=""  srcset="">
   </a>
   </div>
  </section>
