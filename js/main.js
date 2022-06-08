@@ -1,4 +1,4 @@
-let prueba1 = [`H`,`O`,`L`,`A`,'M','U','N','D','O' ];
+/*let prueba1 = [`H`,`O`,`L`,`A`,'M','U','N','D','O' ];
 document.write('javascript: ');
 
 for(let i=0; i<=0; i++){
@@ -26,4 +26,26 @@ for(let i=0; i<=50; i++){
     console.log(`${prueba2[6]}`);
     console.log(`${prueba2[7]}`);
     console.log(`${prueba2[8]}`);
+} */
+
+const juego1 = 'call of duty';
+let comprar = prompt('Que quieres comprar?')
+
+let precioCallOfDuty = 25;
+let stockCallOfDuty = 2;
+function agregarAlCarrito( producto, precio, stock){
+const resultadoFinal = `Agregaste ${producto} al carrito, el mismo tiene un valor de $ ${precio} y actual mente quedan ${stock} No te cuelgues y compralo YAAA!! `
+return resultadoFinal;
+}
+if(comprar === ('')){
+    alert('No agregaste un articulo')
+  comprar
+}
+else if(comprar === juego1){
+    let res = agregarAlCarrito(comprar,precioCallOfDuty,stockCallOfDuty)
+    alert(res)
+}else{
+  
+    alert('No agregaste nada, mira los juegos que tenemos disponibles!!!')
 } 
+
