@@ -39,7 +39,7 @@ return resultadoFinal;
 }
 if(comprar === ('')){
     alert('No agregaste un articulo')
-  comprar
+    comprar = prompt('Que quieres comprar?')
 }
 else if(comprar === juego1){
     let res = agregarAlCarrito(comprar,precioCallOfDuty,stockCallOfDuty)
