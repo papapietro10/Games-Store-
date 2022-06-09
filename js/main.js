@@ -27,25 +27,34 @@ for(let i=0; i<=50; i++){
     console.log(`${prueba2[7]}`);
     console.log(`${prueba2[8]}`);
 } */
-
+let costoTotal = 0;
+let costoFinal = 0;
+let bienvenidos = alert('Bienvenidos a GAME-OVER  STORE');
+for (let i = 0; i <= 1; i++){
 const juego1 = 'call of duty';
-let comprar = prompt('Que quieres comprar?')
-
+let comprar = prompt('Que quieres comprar?');
 let precioCallOfDuty = 25;
 let stockCallOfDuty = 2;
+costoFinal = precioCallOfDuty * 1.21;
 function agregarAlCarrito( producto, precio, stock){
 const resultadoFinal = `Agregaste ${producto} al carrito, el mismo tiene un valor de $ ${precio} y actual mente quedan ${stock} No te cuelgues y compralo YAAA!! `
 return resultadoFinal;
 }
-if(comprar === ('')){
-    alert('No agregaste un articulo')
-    comprar = prompt('Que quieres comprar?')
+function ivaTotal(costoFinal){
+    alert("El total de tu compra + IVA es de $" + costoFinal);
 }
-else if(comprar === juego1){
-    let res = agregarAlCarrito(comprar,precioCallOfDuty,stockCallOfDuty)
-    alert(res)
-}else{
-  
-    alert('No agregaste nada, mira los juegos que tenemos disponibles!!!')
-} 
+if(!comprar){
+    alert('No agregaste un articulo');
+    comprar = prompt('Que queres comprar?');
+}
+if(comprar.toUpperCase() === juego1.toUpperCase()){
+    let res = agregarAlCarrito(comprar,precioCallOfDuty,stockCallOfDuty);
+    alert(res);
+    let resdos = ivaTotal(costoFinal);
+    alert(resdos);
+}
+else{
+    alert('Agrgega = "call of duty"  Para que funsione')
+} }
+
 
