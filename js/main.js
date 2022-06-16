@@ -26,7 +26,7 @@ console.log(`${prueba2[5]}`);
 console.log(`${prueba2[6]}`);
 console.log(`${prueba2[7]}`);
 console.log(`${prueba2[8]}`);
-} */
+} 
 let costoTotal = 0;
 let costoFinal = 0;
 let bienvenidos = alert('Bienvenidos a GAME-OVER  STORE');
@@ -56,5 +56,42 @@ alert(resdos);
 else{
 alert('Escribe = "call of duty"  Para que funsione🚨🚨🚨')
 } }
+ */
 
 
+
+const carrito = [];
+let  button
+const productos = [
+{id:1, titulo:'F1', precio: 18000, hayStock:false, img:"image/formula.webp"},
+{id:2, titulo:'NBA - 2K22', precio: 20000, hayStock:false, img:"image/PS4-NBA-2K22.webp"},
+{id:3, titulo:'FIFA 22', precio: 12000, hayStock:false, img:"image//PS4-FIFA-22-Cover.webp"},]
+
+for (let i = 0; i < productos.length; i++){
+button+=`
+<div class="container">
+  <div class="col mb-5 style-prueba">
+    <div class="card h-10">
+      <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem style-prueba-dos">Sale</div>
+        <img class="card-img-top " src=${productos[i].img} alt="..." />
+        <div class="card-body p-4">
+          <div class="text-center">
+            <h5 class="fw-bolder">${productos[i].titulo}</h5>                        
+            <span class="text-muted text-decoration-line-through"></span> 
+          </div>
+      </div>
+   <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+      <div class="text-center" ><a class="btn btn-outline-dark mt-auto" onclick="agregarAlCarrito(${productos[i].id})">Add to cart</a></div>
+    </div>
+  </div>
+</div>`
+
+}
+function agregarAlCarrito(idDeProducto){
+const indiceEncontrado = productos.findIndex(producto => producto.id == idDeProducto);
+carrito.push(productos[indiceEncontrado]);
+console.log( 'Tenes ' + carrito.length + ' en el carrito');
+console.log(carrito)
+}
+
+document.write(button);
