@@ -61,11 +61,17 @@ nav > a:hover {
 @media (max-width: 480px) {
   .nav-main {
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
-    height: 19em;
-    overflow: hidden; }
+    overflow: hidden;
+    height: 20em;
+    padding: 0%; }
+  .lista-games {
+    height: 100em; }
   .nav-main img {
     width: 20%; }
+  .carrito {
+    height: 15em; }
   .nav-main a {
     font-size: 1.5em; }
   .btn img {
@@ -308,18 +314,18 @@ iframe {
   box-shadow: 0px 0px 5px #0055ff;
   overflow: hidden; }
 
-.deportes {
+.categoria-games {
   width: 35%;
   height: 6.5em;
   text-align: center;
   margin-left: 32%;
   margin-top: 5%;
-  background-color: #001aff;
   border-radius: 1%;
+  margin-bottom: 10%;
   -webkit-animation: color-change-5x 8s linear infinite alternate both;
   animation: color-change-5x 8s linear infinite alternate both; }
 
-.deportes h2 {
+.categoria-games h2 {
   letter-spacing: 0.1em;
   color: #fff;
   font-size: 5em;
@@ -327,6 +333,10 @@ iframe {
   text-align: center; }
 
 /*CARDS 1 */
+.contenedor-cards {
+  width: 90%;
+  margin-left: 5%; }
+
 .btn {
   background-color: #0077ff;
   color: white;
@@ -335,24 +345,13 @@ iframe {
   top: 0.8em; }
 
 .card {
-  margin-top: 10%;
   background-color: #0800ff; }
 
-.fw-bolder {
-  padding: 2%; }
-
 .card-body {
-  background-color: white;
-  color: black; }
+  background-color: white; }
 
-.combo1 {
-  height: 17em; }
-
-.mb-5 {
-  height: 24em; }
-
-/*PS5*/
-.register-ps5 {
+/*PUBLICIDAD*/
+.register-ps4 {
   height: 30em;
   width: 100%;
   display: flex;
@@ -361,7 +360,7 @@ iframe {
   box-shadow: 0px 0px 10px #fff;
   margin-top: 20%; }
 
-.register-ps5 img {
+.register-ps4 img {
   width: 100%; }
 
 .container {

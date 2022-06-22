@@ -326,18 +326,18 @@ height: 15em;
 box-shadow: 0px 0px 5px rgb(0, 85, 255);
 overflow: hidden;
 }
-.deportes{
+.categoria-games{
 width: 35%;
 height: 6.5em;
 text-align: center;
 margin-left: 32%;
 margin-top: 5%;
-background-color: rgb(0, 26, 255);
 border-radius: 1%;
+margin-bottom: 10%;
 -webkit-animation: color-change-5x 8s linear infinite alternate both;
 animation: color-change-5x 8s linear infinite alternate both;
 }
-.deportes h2{
+.categoria-games h2{
 letter-spacing: 0.1em;
 color: #fff;
 font-size: 5em;
@@ -345,6 +345,10 @@ font-family: game;
 text-align: center;
 }
 /*CARDS 1 */
+.contenedor-cards{
+  width: 90%;
+margin-left: 5%;
+}
 .btn{
 background-color: rgb(0, 119, 255) ;
 color: rgb(255, 255, 255);
@@ -353,24 +357,15 @@ position: relative;
 top: 0.8em;
 }
 .card{
-margin-top: 10%;
 background-color: rgb(8, 0, 255);
 }
-.fw-bolder{
-padding: 2%;
-}
+
 .card-body{
 background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);
 }
-.combo1{
-height:17em;
-}
-.mb-5{
-height: 24em;
-}
-/*PS5*/
-.register-ps5{
+
+/*PUBLICIDAD*/
+.register-ps4{
 height: 30em;
 width: 100%;
 display: flex;
@@ -379,15 +374,14 @@ overflow: hidden;
 box-shadow: 0px 0px 10px #fff;
 margin-top: 20%;
 }
-.register-ps5 img{
+.register-ps4 img{
 width: 100%;
 }
-
 .container{
 width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 align-items: center;
 }
 .style-prueba{

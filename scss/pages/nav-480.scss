@@ -2,12 +2,20 @@
 @media (max-width: 480px){
 .nav-main{
 display:flex;
+justify-content: space-evenly;
 flex-direction: column;
-height: 19em;
 overflow: hidden;
+height: 20em;
+padding: 0%;
+}
+.lista-games{
+   height: 100em;
 }
 .nav-main img{
 width: 20%;
+}
+.carrito{
+    height: 15em;
 }
 .nav-main a{
 font-size: 1.5em;
