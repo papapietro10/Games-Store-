@@ -43,7 +43,7 @@ document.getElementById("card-container-deporte").innerHTML = deporte
 const productosAventura = [
 {id:5, titulo:'HorizoN', precio: 25000, hayStock:false, img:"image/357982-1600-auto.webp"},
 {id:6, titulo:'Ratchet Clank', precio: 20000, categoria:'Aventura', hayStock:false, img:"image/356676-1600-auto.webp"},
-{id:7, titulo:'The last of us part II', precio: 19000,categoria:'Aventura', hayStock:false, img:"/image/the-last-of-us2-main.webp"},
+{id:7, titulo:'The last of us part II', precio: 19000,categoria:'Aventura', hayStock:false, img:"../image/the-last-of-us2-main.webp"},
 {id:8, titulo:'Spider-Man', precio: 20000,categoria:'Aventura', hayStock:false, img:"/image/Spiderman-ultimate.webp"},
 ];
 
