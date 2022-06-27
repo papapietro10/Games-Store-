@@ -41,8 +41,8 @@ document.getElementById("card-container-deporte").innerHTML = deporte
 
 
 const productosAventura = [
-{id:5, titulo:'HorizoN', precio: 25000, hayStock:false, img:"/image/357982-1600-auto.webp"},
-{id:6, titulo:'Ratchet Clank', precio: 20000, categoria:'Aventura', hayStock:false, img:"/image/356676-1600-auto.webp"},
+{id:5, titulo:'HorizoN', precio: 25000, hayStock:false, img:"image/357982-1600-auto.webp"},
+{id:6, titulo:'Ratchet Clank', precio: 20000, categoria:'Aventura', hayStock:false, img:"image/356676-1600-auto.webp"},
 {id:7, titulo:'The last of us part II', precio: 19000,categoria:'Aventura', hayStock:false, img:"/image/the-last-of-us2-main.webp"},
 {id:8, titulo:'Spider-Man', precio: 20000,categoria:'Aventura', hayStock:false, img:"/image/Spiderman-ultimate.webp"},
 ];
@@ -82,7 +82,7 @@ document.getElementById("card-container-aventura").innerHTML = aventura;
 
 
 const productosAccion = [
-  {id:1, titulo:'GTA', precio: 18000, categoria:'accion', hayStock:false, img:"/image/357841-1600-auto.webp"},
+  {id:1, titulo:'GTA', precio: 18000, categoria:'accion', hayStock:false, img:"image/357841-1600-auto.webp"},
   {id:2, titulo:'Call of Duty', precio: 20000, categoria:'accion', hayStock:false, img:"/image/combo3.jpeg"},
   {id:3, titulo:'Ghost', precio: 12000,categoria:'accion', hayStock:false, img:"image/S5_GoTDC_R--2-.webp"},
   {id:4, titulo:'VIII AGE', precio: 20000,categoria:'accion', hayStock:false, img:"/image/357857-1600-auto.webp"},
