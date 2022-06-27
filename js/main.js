@@ -83,7 +83,7 @@ document.getElementById("card-container-aventura").innerHTML = aventura;
 
 const productosAccion = [
   {id:1, titulo:'GTA', precio: 18000, categoria:'accion', hayStock:false, img:"image/357841-1600-auto.webp"},
-  {id:2, titulo:'Call of Duty', precio: 20000, categoria:'accion', hayStock:false, img:"/image/combo3.jpeg"},
+  {id:2, titulo:'Call of Duty', precio: 20000, categoria:'accion', hayStock:false, img:"image/combo3.jpeg"},
   {id:3, titulo:'Ghost', precio: 12000,categoria:'accion', hayStock:false, img:"image/S5_GoTDC_R--2-.webp"},
   {id:4, titulo:'VIII AGE', precio: 20000,categoria:'accion', hayStock:false, img:"image/357857-1600-auto.webp"},
   ];
