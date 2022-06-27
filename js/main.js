@@ -43,8 +43,8 @@ document.getElementById("card-container-deporte").innerHTML = deporte
 const productosAventura = [
 {id:5, titulo:'HorizoN', precio: 25000, hayStock:false, img:"/image/357982-1600-auto.webp"},
 {id:6, titulo:'Ratchet Clank', precio: 20000, categoria:'Aventura', hayStock:false, img:"/image/356676-1600-auto.webp"},
-{id:7, titulo:'The last of us part II', precio: 19000,categoria:'Aventura', hayStock:false, img:"image/the-last-of-us2-main.webp"},
-{id:8, titulo:'Spider-Man', precio: 20000,categoria:'Aventura', hayStock:false, img:"image/Spiderman-ultimate.webp"},
+{id:7, titulo:'The last of us part II', precio: 19000,categoria:'Aventura', hayStock:false, img:"/image/the-last-of-us2-main.webp"},
+{id:8, titulo:'Spider-Man', precio: 20000,categoria:'Aventura', hayStock:false, img:"/image/Spiderman-ultimate.webp"},
 ];
 
 let aventura = ``;
@@ -83,9 +83,9 @@ document.getElementById("card-container-aventura").innerHTML = aventura;
 
 const productosAccion = [
   {id:1, titulo:'GTA', precio: 18000, categoria:'accion', hayStock:false, img:"/image/357841-1600-auto.webp"},
-  {id:2, titulo:'Call of Duty', precio: 20000, categoria:'accion', hayStock:false, img:"image/combo3.jpeg"},
+  {id:2, titulo:'Call of Duty', precio: 20000, categoria:'accion', hayStock:false, img:"/image/combo3.jpeg"},
   {id:3, titulo:'Ghost', precio: 12000,categoria:'accion', hayStock:false, img:"image/S5_GoTDC_R--2-.webp"},
-  {id:4, titulo:'VIII AGE', precio: 20000,categoria:'accion', hayStock:false, img:"image/357857-1600-auto.webp"},
+  {id:4, titulo:'VIII AGE', precio: 20000,categoria:'accion', hayStock:false, img:"/image/357857-1600-auto.webp"},
   ];
   
   let accion = ``;
@@ -124,9 +124,9 @@ const productosAccion = [
 
 const productosCombos = [
   {id:1, titulo:'Combo 1', precio: 50000, hayStock:false, img:"image/combo2.jpeg"},
-  {id:2, titulo:'Combo 2', precio: 80000, categoria:'Deporte', hayStock:false, img:"image/combo1.webp"},
-  {id:3, titulo:'combo 3', precio: 70000,categoria:'Deporte', hayStock:false, img:"image/213590-1200-auto.webp"},
-  {id:4, titulo:'Combo 4', precio: 60000,categoria:'Deporte', hayStock:false, img:"image/196114-1200-auto.webp"},
+  {id:2, titulo:'Combo 2', precio: 80000, categoria:'Deporte', hayStock:false, img:"/image/combo1.webp"},
+  {id:3, titulo:'combo 3', precio: 70000,categoria:'Deporte', hayStock:false, img:"/image/213590-1200-auto.webp"},
+  {id:4, titulo:'Combo 4', precio: 60000,categoria:'Deporte', hayStock:false, img:"/image/196114-1200-auto.webp"},
   ];
   
   let combos = ``;
