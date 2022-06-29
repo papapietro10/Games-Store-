@@ -388,3 +388,46 @@ align-items: center;
 width: 30%;
 height: 10em;
 }
+
+
+//* FORMULARIO *//@at-root
+.formulario-contacto{
+  margin-top: 1%;
+  width: 100%;
+height: 35em;
+-webkit-animation: color-change-5x 8s linear infinite alternate both;
+animation: color-change-5x 8s linear infinite alternate both;
+}
+.formulario-contacto h2{
+  height: 2em;
+ position: relative;
+ top: 5%;
+  text-align: center;
+font-family: game;
+color: #fff;
+font-size: 4em;
+-webkit-animation: text-flicker-in-glow 1s steps(1, end) infinite both;
+animation: text-flicker-in-glow 0.1s steps(1, end) infinite both;
+}
+.position{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.form-label{
+  text-align: center;
+  font-family: game;
+  color: #fff;
+  font-size: 2em
+}
+.form-control{
+  text-align: center;
+  font-family: game;
+}
+
+.email-contac{
+  height: 10em;
+}

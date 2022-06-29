@@ -159,3 +159,16 @@ const productosCombos = [
     }
   
   document.getElementById("card-container-combos").innerHTML = combos;
+
+  const enviar = document.getElementById("enviar");
+
+enviar.onclick = () =>{
+const nombre = document.getElementById("nombre").value;
+const mail = document.getElementById("mail").value;
+const apellido = document.getElementById("apellido").value;
+
+
+alert(`Hola recibimos tu consulta ${nombre}. Nos estaremos contactando a traves del siguiente email ${mail} Muchas gracias sr ${apellido} `)
+  }
+
+  
