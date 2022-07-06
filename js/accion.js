@@ -47,6 +47,6 @@ document.getElementById("card-container-accion").innerHTML = accion;
 function verProductoAccion(id){
 const deatlle = productosAccion.findIndex(producto => producto.id == id);
 localStorage.setItem('detalleAmostrar',  JSON.stringify ([deatlle]));
-location.href='/pages/producto-accion.html';
+location.href='../pages/producto-accion.html';
 
 }
