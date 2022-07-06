@@ -45,5 +45,5 @@ document.getElementById("card-container-aventura").innerHTML = aventura;
 function verProductoAventura(id){
 const deatlle = productosAventura.findIndex(producto => producto.id == id);
 localStorage.setItem('detalleAmostrar',  JSON.stringify ([deatlle]));
-location.href='/pages/producto-aventura.html'
+location.href='../pages/producto-aventura.html'
 }

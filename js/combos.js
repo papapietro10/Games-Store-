@@ -48,6 +48,6 @@ document.getElementById("card-container-combos").innerHTML = combos;
 function verProductoCombos(id){
 const deatlle = productosCombos.findIndex(producto => producto.id == id);
 localStorage.setItem('detalleAmostrar',  JSON.stringify ([deatlle]));
-location.href='/pages/producto-combo.html'
+location.href='../pages/producto-combo.html'
 
 }

@@ -46,7 +46,7 @@ document.getElementById("card-container-deporte").innerHTML = deporte
 function verProductoDeportes(id){
 const deatlle = productosDeporte.findIndex(producto => producto.id == id);
 localStorage.setItem('detalleAmostrar',  JSON.stringify ([deatlle]));
-location.href='/pages/producto-deporte.html'
+location.href='../pages/producto-deporte.html'
 
 }
 
