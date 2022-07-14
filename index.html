@@ -21,14 +21,12 @@
       <li class="nav-item dropdown nav-main ">
         <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Games</a>
         <ul class="dropdown-menu ">
-          <li><a class="dropdown-item" href="#">Deporte</a></li>
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Aventura</a></li>
-          <li><a class="dropdown-item" href="#">Combos</a></li>
+          <li><a class="dropdown-item"  href="#deporte">Deporte</a></li>
+          <li><a class="dropdown-item" href="#accion">Action</a></li>
+          <li><a class="dropdown-item" href="#aventura">Aventura</a></li>
+          <li><a class="dropdown-item" href="#combos">Combos</a></li>
         </ul>
       </li>
-      <a href="pages/ps5.html">PS5</a>
-      <a href="">Consolas</a>
       <div class="carrito">
         <button class="btn btn-outline-dark " type="submit">
           <img src="image/shopping_cart_FILL0_wght400_GRAD0_opsz48.png" class="carrito-png overflow-auto" alt="">
@@ -72,40 +70,48 @@
         </button>
       </div>
     </div>
-     <!---Videos youtube-->
+     <!---Videos youtube-
     <div class="videos-carousel">
       <h2>Proximamente</h2>
-      <!--
+      
       <iframe src="https://www.youtube-nocookie.com/embed/qbLVd5I5Xbg"></iframe>
       <iframe src="https://www.youtube-nocookie.com/embed/O75Ip4o1bs8" ></iframe>
       <iframe src="https://www.youtube-nocookie.com/embed/4rKFkLeRF3Q"></iframe>
-      !-->
+    -->
     </div>
     <section>
      <!---Cards-->
       <div class="categoria-games">
-        <h2>DEPORTE</h2>
+        <h2 id="deporte">DEPORTE</h2>
       </div>
       <div class="contenedor-cards">
         <div id="card-container-deporte" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
       </div>
       </div>
       <div class="categoria-games">
-        <h2>AVENTURA</h2>
+        <h2 id="aventura">AVENTURA</h2>
       </div>
       <div class="contenedor-cards">
         <div id="card-container-aventura" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
       </div>
       </div>
+      
+        <div class=" ps5-segundap"> 
+            <h2>Consola PlayStation 5</h2>
+            <p> Vive una nueva generación de juegos increíbles de PlayStation.</p>
+            <button id="ps5-info" type="button" class="btn btn-dark">Más información</button>
+            <img src="image/playstation-5-horizontal-product-shot-01-ps5-en-23nov20.webp" alt="">
+        </div>
+    
       <div class="categoria-games">
-        <h2>ACCION</h2>
+        <h2 id="accion">ACCION</h2>
       </div>
       <div class="contenedor-cards">
         <div id="card-container-accion" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
       </div>
       </div>
       <div class="categoria-games">
-        <h2>COMBOS</h2>
+        <h2 id="combos">COMBOS</h2>
       </div>
       <div class="contenedor-cards">
         <div id="card-container-combos" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -154,5 +160,7 @@
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
+      <!--Incorporando libreria-->
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

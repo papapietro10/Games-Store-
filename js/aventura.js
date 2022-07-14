@@ -36,6 +36,12 @@ console.log(carrito)
 const totalCarrito = carrito.reduce((acumulador, producto) => acumulador + producto. precio, 0 );
 document.getElementById('cuenta').innerHTML = carrito.length + "- $" + totalCarrito;
 localStorage.setItem("Aventura", JSON.stringify((carrito)))
+Swal.fire({
+title: 'Felicitaciones!',
+text: 'Agregaste un juego al carrito',
+icon: 'success',
+confirmButtonText: 'Seguir comprando',
+})
 }
 
 document.getElementById("card-container-aventura").innerHTML = aventura;
