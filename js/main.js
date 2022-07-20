@@ -1,5 +1,5 @@
 //*CARRITO GENERAL*//
-const carrito = [];
+
 
 //*Evento en el bt de enviar*//
 const enviar = document.getElementById("enviar");

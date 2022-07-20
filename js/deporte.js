@@ -42,17 +42,25 @@ title: 'Felicitaciones!',
 text: 'Agregaste un juego al carrito',
 icon: 'success',
 confirmButtonText: 'Seguir comprando',
+actualizarCarrito
 })
 }
 
+const containerDeporte = document.getElementById("card-container-deporte").innerHTML = deporte
 
+const actualizarCarrito =()=> {
 
-
-
-
-document.getElementById("card-container-deporte").innerHTML = deporte
-
-
+    carrito.forEach((productoDeporte) =>{
+        const div = documentElement('div')
+        div.innerHTML = `
+        <p>${productoDeporte.titulo}<p>
+        <p>Precio:${productoDeporte.precio}<p>
+        <p>Cantidad: <span id="total">${productoDeporte.total}</span><p>
+        <button onclick = "eliminarDelCarrito(${productoDeporte.id}) class="boton-eliminar"><i class="fas-trash-alt"></i></bu
+        `
+        containerDeporte.appenChild(div)
+    })
+}
 
 //* FUNCION VER DETALLE*//
 function verProductoDeportes(id){

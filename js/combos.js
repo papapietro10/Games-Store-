@@ -30,7 +30,7 @@ ${productosCombos[i].precio}
 //* FUNCION AGREGAR AL CARRITO*//
 
 function agregarAlCarrito(id){
-const calculo = productosCombos.findIndex(producto => producto.id == id);
+const calculo = producto.findIndex(producto => producto.id == id);
 carrito.push(productosCombos[calculo]);
 console.log( 'Tenes ' + carrito.length + ' juego en el carrito');
 console.log(carrito)
